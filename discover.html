@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/jpg" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/date.js"></script>
+    <script defer src="js/progressiveloading.js"></script>
+    <title>Chamber of Commerce</title>
+</head>
+<p class="message"></p>
+<body>
+    <header>
+        <section class="navbar">
+          <nav>
+            <div class="logo">
+              <img src="images/logo.webp" alt="logo" class="logo" />
+              <h1>Micropatech</h1>
+              <p>chamber of Commerce</p>
+            </div>
+  
+            <div class="social">
+              <picture>
+                <a href="https://www.facebook.com/"
+                  ><img src="images/social.png" alt="social" target="blank"
+                /></a>
+                <a href="https://www.instagram.com/"
+                  ><img src="images/socialmedia.png" alt="social" target="blank"
+                /></a>
+              </picture>
+            </div>
+  
+            <div>
+              <ul class="navbar-links">
+                <li class="toggle">
+                  <a href="#" onclick="toggleMenu()"> &#9776; </a>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </section>
+      </header> 
+      <date class="date"></date>
+      
+    <main>
+        <section class="section-1">
+         <picture>
+            <source media="(min-width: 992px)"  srcset= "images/avenue600.jpg">
+            <source media="(min-width: 760px)"  srcset="images/avenue400.jpg">
+
+            <img data-src="images/avenue250.jpg" alt="avenue" sizes=" 50vw">
+            
+
+         </picture>
+        </section>
+  
+        <section class="section-2">
+          <picture>
+            <source media="(min-width:992px)"  srcset="images/butterflies500.jpg">
+            <source media="(min-width: 760px)" srcset="images/butterflies500.jpg">
+
+           <img data-src="images/butterflies250.jpg" alt="butterflies" sizes="50vw">
+          </picture>
+        </section>
+  
+        <section class="section-3">
+          <picture>
+            <source media="(min-width: 992px)" srcset="images/garden600.jpg">
+            <source media="(min-width: 760px)" srcset="images/garden400.jpg">
+            <img data-src="images/garden250.jpg" alt="hills">
+          </picture>
+        </section>
+  
+        <section class="section-4">
+          <picture>
+
+            <source media="(min-width: 992px)" srcset="images/trees500.jpg">
+            <source media="(min-width: 760px)" srcset="images/trees500.jpg">
+
+            <source media="(min-width: 992px)"  srcset="images/trees500.jpg">
+            <source media="(min-width: 760px)"  srcset="images/trees500.jpg">
+            <img data-src="images/trees250.jpg" alt="trees">
+          </picture>
+        </section>
+  
+        <section class="section-5">
+          <picture>
+            <source media="(min-width: 992px)" srcset="images/hills400.jpg">
+            <source media="(min-width: 760px)" srcset="images/hills400.jpg">
+            <img data-src="images/hills250.jpg" alt="hills">
+          </picture>
+        </section>
+  
+        <section class="section-6">
+          <p class="sportlight-1" class="sportlight">
+            <picture>
+              <source media="(min-width: 992px)" srcset="images/nature250.jpg">
+              <source media="(min-width: 760px)" srcset="images/nature250.jpg">
+              <img data-src="images/nature250.jpg" alt="nature">
+            </picture>
+          </p>
+          <p class="sportlight-2" class="sportlight-2nd">
+            <picture>
+              <source media="(min-width: 992px)" srcset="images/lake600.jpg">
+              <source media="(min-width: 760px)" srcset="images/lake400.jpg">
+              <img data-src="images/lake250.jpg" alt="lake">
+            </picture>
+          </p>
+          <p class="sportlight-3">
+            <picture>
+              <source media="(min-width: 992px)" srcset="images/northernlights250.jpg">
+              <source media="(min-width: 760px)" srcset ="images/northernlights250.jpg">
+              <img data-src="images/northernlights250.jpg" alt="northernlights">
+            </picture>
+          </p>
+        </section>
+      </main>
+
+      
+    <footer>
+        <section class="footer-logo">
+          <div class="logo">
+            <img src="images/logo.webp" alt="logo" />
+            <h2>Micropatech Chamber of Commerce.</h2>
+            <p>1877 South 1030 West</p>
+            <p>Orem,Utah</p>
+          </div>
+  
+          <div class="contact">
+            <p>patrickochen97@gmail.com</p>
+            <p>+(720) 4838-919</p>
+            <a href="https://goo.gl/maps/K7UQdyELABsJQr3x5">
+              <img src="images/pin.png" alt="pin" target="blank" />Location
+            </a>
+          </div>
+        </section>
+  
+        <section class="copyright">
+          <p>
+            &copy;<year></year>/Micropatech Chamber of Commerce /
+            <b>Patrick Ochen </b>/ WDD 230 project/
+            <a href="https://ochen1997.github.io/lesson-03/">Site plan</a>
+          </p>
+          <p id="lastmode"></p>
+        </section>
+      </footer>
+</body>
+</html>

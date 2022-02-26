@@ -1,0 +1,321 @@
+* { 
+    margin: 0;
+    border: 0;
+    font-family: 'Merriweather', 'serif';
+    font-size: 13px;
+  
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3777ff;
+     padding: 70px;
+    
+}
+
+.navbar nav  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+
+   
+}
+
+.navbar img {
+    width: 80px;
+    height: auto;
+}
+
+
+.navbar-links li{
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 5px;
+   
+
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #FFEC51;
+    display: block;
+    padding: 10px;
+  
+   
+
+}
+
+.navbar-links a:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 3s;
+}
+
+
+
+
+.social img {
+    width: 30px;
+}
+
+ .date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    padding: 10px;
+    color: #F15156;
+    background-color: #E2C2FF;
+    max-width: 760px;
+    
+    
+ }
+
+
+ .logo {
+     display: flex;
+     justify-content: center ;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 20px;
+     margin-right: -10px;
+ }
+
+
+ .social picture {
+     display: flex;
+     justify-content: center;
+     align-items: center; }
+     
+    
+
+ 
+ .navbar-links li {
+     display: none;
+ }
+
+ .navbar-links li:first-child {
+     display: block;
+     
+ }
+
+
+
+
+
+
+ .toggle a{
+     color: white;
+     font-size: 30px;
+
+ }
+
+ .responsive li {
+     display: block;
+ }
+
+.footer-logo {
+    text-align: center;
+    line-height: 40px;
+    padding: 10px;
+   
+   
+    
+}
+
+.contact img {
+    width: 40px;
+   
+}
+
+.contact a {
+    text-decoration: none;
+    color: purple;
+}
+
+.footer-contact img {
+    width: 40px;
+    height: auto;
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid #FFEC51;
+}
+
+
+footer img {
+    width: 90px;
+}
+
+footer {
+    background-color: #3777ff;
+    margin-top: 10px;
+    max-width: 760px;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7,1fr);
+    gap: 10px;
+    max-width: 500px;
+   
+ 
+}
+
+main {
+    margin-top: 30px;
+    max-width:380px;
+    
+    
+   
+ 
+}
+   
+    
+    
+
+
+.section-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #549F93;
+    height: 300px;
+   }
+
+.section-2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: #549F93;
+    
+}
+
+.section-3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: #549F93;
+}
+
+.section-4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: #549F93;
+}
+
+.section-5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-color: #549F93;
+
+}
+
+.section-6 {
+    grid-column: 1/2;
+    grid-row: 6/8;
+    
+   
+   
+  
+}
+
+.section-6 {
+    
+    display: grid;
+    border: 1px solid black;
+    padding: 30px;
+
+    
+   
+}
+
+.sportlight-1 {
+   background-color: var(--clr-six);
+   border: 1px solid black;
+ 
+}
+
+.sportlight-2 {
+    background-color: var(--clr-six);
+    border: 1px solid black;
+   
+  
+  
+}
+
+.sportlight-3 {
+    display: none;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.message {
+    text-align: center;
+    font-size: large;
+    color: #FFEC51;
+    background-color: #3777ff;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: purple;
+
+}
+
+picture img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-4, 
+span {  
+    text-align: center;
+    color: white;
+   
+
+}
+
+.section-4 h2 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.weatherinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+}
+
+.description {
+    font-size: 20px;
+    
+}
+
+.windvalues {
+    font-size: 15px;
+    margin: 10px;
+    border-top: 1px solid white;
+    padding: 10px;
+    line-height: 25px;
+
+}
+
+
+.temperature {
+    font-size:30px ;
+}
+
+.span ,.icon ,img {
+    width: 100px;
+}
+
+
