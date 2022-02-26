@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
                 temperature.innerHTML =`${data.data[0].temp} &deg;C`;
                 Description.innerHTML = description;
                 windspeed.innerHTML = `Wind Speed: ${data.data[0].wind_spd} Km/h`;
-
+                console.log(data)
                 const t = data.data[0].temp;
                 const s = data.data[0].wind_spd;
                 var f = 37.74 + 0.6215*t - 35.75*s**0.16 + 0.4275*t*s**0.16
