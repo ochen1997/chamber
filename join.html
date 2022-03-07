@@ -1,12 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/jpg" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/join.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/date.js"></script>
+    <script defer src="js/windchill.js"></script>
+    <title>Chamber of Commerce</title>
+  </head>
+  <body>
+    <header>
+      <section class="navbar">
+        <nav>
+          <div class="logo">
+            <img src="images/logo.webp" alt="logo" class="logo" />
+            <h1>Micropatech</h1>
+            <p>chamber of Commerce</p>
+          </div>
+
+          <div class="social">
+            <picture>
+              <a href="https://www.facebook.com/"
+                ><img src="images/social.png" alt="social" target="blank"
+              /></a>
+              <a href="https://www.instagram.com/"
+                ><img src="images/socialmedia.png" alt="social" target="blank"
+              /></a>
+            </picture>
+          </div>
+
+          <div>
+            <ul class="navbar-links">
+              <li class="toggle">
+                <a href="#" onclick="toggleMenu()"> &#9776; </a>
+              </li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="#">Directory</a></li>
+              <li><a href="join.html">Join</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <date class="date"></date>
+
+    <main>
+      <form action="thankyou.html" method="get">
+        <fieldset class="fieldset-1">
+          <legend>Aplication information</legend>
+          <label class="top"
+            >First Name<input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Last Name<input type="text" name="lname" required
+          /></label>
+          <label class="top"
+            >Company Name<input type="text" name="title"
+          /></label>
+
+          <label class="top"
+            >Email<input
+              type="email"
+              name="email"
+              required
+              placeholder="email@gmail.com"
+          /></label>
+          <label class="top"
+            >Cell phone number<input type="tel" name="phone number" required
+          /></label>
+          <label class="top"
+            >Company Name<input type="text" name="title" required
+          /></label>
+        </fieldset>
+
+        <fieldset class="fieldset-2">
+          <legend>Membership Information</legend>
+          <div>Membership level</div>
+          <label class="middle"
+            ><input type="radio" class="radioBlue" name="membership level" /> NP
+            Membership is for non profit organizations and there is no
+            fee.</label
+          >
+          <label class="middle"
+            ><input type="radio" class="radioBlue" name="membership level" />
+            Bronze Membership</label
+          >
+          <label class="middle"
+            ><input type="radio" class="radioBlue" name="membership level" />
+            Silver Membership</label
+          >
+          <label class="middle"
+            ><input type="radio" class="radioBlue" name="membership level" />
+            Gold Membership</label
+          >
+          <p class="middle">
+            <label>
+              <textarea
+                name="business description"
+                id="business description"
+                cols="30"
+                rows="10"
+              >
+Briefly describe your business....</textarea
+              >
+            </label>
+          </p>
+        </fieldset>
+
+        <fieldset class="benefits">
+          <legend>Membership Benefits</legend>
+          <h2>
+            NP Memebership is for non profit organizations and there is no fee
+          </h2>
+          <p>
+            This type of Membership is typically designed to help out some
+            organization that are helping many in diffrent corner of the world,
+            Although it's free it comes with great features to that are really
+            useful to your organization. Since non profit organization are
+            designed in a way that all the income goes back into it's operation
+            this memebership help minimised some cost so that the income should
+            be spent in something else.
+          </p>
+          <h2>Bronze Membership $500</h2>
+          <p>
+            As a Bronze Membership, you will enjoy some cool and amazing tools
+            that comes with it, in that you will be offered some benefits like
+            training which will help in the proper management of your
+            organization.
+          </p>
+          <h2>Silver Membership $1500</h2>
+          <p>
+            Our silver membership is designed for users who already know the
+            basics of the website, we offer full insights into our teams
+            strategies throungh our educational ideas. The background and
+            strategic thinking behind each setup is elucidated across diverse
+            useful areas including: All of which you can use to hone your
+            skills. We provide a weekly newsletter service guaranteeing you a
+            full recap of weekly happenings both within and without Eight. Every
+            month, the team of Eight will be doing a Q&A in which we answer all
+            questions from our members.
+          </p>
+          <p>
+            Upon joining our platform as a silver member, you will receive an
+            email with greetings and information enabling you to join our
+            private Discord server.
+          </p>
+          <h2>Gold Membership $2000</h2>
+          <p>
+            As a Gold Member, you can join us at our private meetings. At these
+            intimate meetings, we have local or specialized speakers to educate
+            you on the hottest topics of the day. Nothing is ever sold or
+            pitched at Gold Meetings. Plus, with a smaller group, it is easier
+            for you to ask questions and receive personal attention. Keep on the
+            cutting edge of rapidly changing news and strategies.
+          </p>
+          <p>
+            As a Gold Member, you are invited to have dinner with our featured
+            speaker of the month at a private reception prior to, or after, our
+            general meetings (subject to the Speaker's availability). These
+            receptions are a wonderful opportunity for you to spend time “up
+            close and personal” with our featured speaker and ask them
+            questions. Unique networking experience!
+          </p>
+          <p>
+            As a Gold Member, you will receive reserve seating at our monthly
+            meetings, if requested. Many of our Gold Members believe this is the
+            best feature of Gold Membership, particularly on those nights when
+            the event is sold out and there is standing room only.
+          </p>
+
+          <label class="bottom"
+            >Date<br /><input
+              type="datetime-local"
+              class="currentdatetime"
+              name="datetime-local"
+              
+          /></label>
+          <label class="bottom"
+            ><input
+              type="submit"
+              class="submitBtn"
+              name="submitBtn"
+              value="Join Chamber"
+          /></label>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <section class="footer-logo">
+        <div class="logo">
+          <img src="images/logo.webp" alt="logo" />
+          <h2>Micropatech Chamber of Commerce.</h2>
+          <p>1877 South 1030 West</p>
+          <p>Orem,Utah</p>
+        </div>
+
+        <div class="contact">
+          <p>patrickochen97@gmail.com</p>
+          <p>+(720) 4838-919</p>
+          <a href="https://goo.gl/maps/K7UQdyELABsJQr3x5">
+            <img src="images/pin.png" alt="pin" target="blank" />Location
+          </a>
+        </div>
+      </section>
+
+      <section class="copyright">
+        <p>
+          &copy;<year></year>/Micropatech Chamber of Commerce /
+          <b>Patrick Ochen </b>/ WDD 230 project/
+          <a href="https://ochen1997.github.io/lesson-03/">Site plan</a>
+        </p>
+        <p id="lastmode"></p>
+      </section>
+    </footer>
+  </body>
 </html>
