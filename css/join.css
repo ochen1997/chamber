@@ -10,7 +10,8 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #3777ff;
-     padding: 70px;
+    padding: 70px;
+    margin-top: -60px;
     
 }
 
@@ -107,6 +108,8 @@ header {
 
 
  .message {
+    margin-top: -10px;
+    padding: 20px ;
     text-align: center;
     font-size: large;
     color: #FFEC51;
@@ -246,6 +249,7 @@ form .benefits p {
    font-size: .8rem;
    line-height: 2rem;
 }
+
 
 
 @media only screen and (min-width: 760px) {

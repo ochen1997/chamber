@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,9 +14,10 @@
       rel="stylesheet"
     />
     <script defer src="js/date.js"></script>
-    <script defer src="js/windchill.js"></script>
+    <script defer src="js/joindate.js"></script>
     <title>Chamber of Commerce</title>
   </head>
+  <p class="message"></p>
   <body>
     <header>
       <section class="navbar">
@@ -44,7 +46,7 @@
               </li>
               <li><a href="index.html">Home</a></li>
               <li><a href="discover.html">Discover</a></li>
-              <li><a href="#">Directory</a></li>
+              <li><a href="directory.html">Directory</a></li>
               <li><a href="join.html">Join</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -66,9 +68,8 @@
             >Last Name<input type="text" name="lname" required
           /></label>
           <label class="top"
-            >Company Name<input type="text" name="title"
-          /></label>
-
+          >Position<input type="title" name="title" pattern="[A-I]()-+$"
+        /></label>
           <label class="top"
             >Email<input
               type="email"
@@ -182,9 +183,10 @@ Briefly describe your business....</textarea
 
           <label class="bottom"
             >Date<br /><input
-              type="datetime-local"
+              type="text"
               class="currentdatetime"
-              name="datetime-local"
+              name="datetime"
+              id="datetime"
               
           /></label>
           <label class="bottom"
