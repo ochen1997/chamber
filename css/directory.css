@@ -1,0 +1,322 @@
+body { 
+    margin: 0;
+    border: 0;
+    font-family: 'Merriweather', 'serif';
+    font-size: 13px;
+  
+}
+
+:root {
+
+    --clr-one: #549F93;
+    --clr-two: #592ab8;
+    --clr-three: #0D160B;
+    --clr-four: #f0f050;
+    --clr-five: #EC5766;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3777ff;
+    padding: 70px;
+    margin-top: -60px;
+    
+}
+
+
+
+.navbar nav  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+
+   
+}
+
+.navbar img {
+    width: 80px;
+    height: auto;
+}
+
+
+.navbar-links li{
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 5px;
+   
+
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #FFEC51;
+    display: block;
+    padding: 10px;
+  
+   
+
+}
+
+.navbar-links a:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 3s;
+}
+
+
+
+
+.social img {
+    width: 30px;
+}
+
+ .date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    padding: 10px;
+    color: #F15156;
+    background-color: #E2C2FF;
+    max-width: 760px;
+    
+    
+ }
+
+
+ .logo {
+     display: flex;
+     justify-content: center ;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 20px;
+     margin-right: -10px;
+ }
+
+
+ .social picture {
+     display: flex;
+     justify-content: center;
+     align-items: center; }
+     
+    
+
+ 
+ .navbar-links li {
+     display: none;
+ }
+
+ .navbar-links li:first-child {
+     display: block;
+     
+ }
+
+
+ .message {
+    margin-top: -10px;
+    padding: 20px ;
+    text-align: center;
+    font-size: large;
+    color: #FFEC51;
+    background-color: #3777ff;
+}
+
+
+
+ .toggle a{
+     color: white;
+     font-size: 30px;
+
+ }
+
+ .responsive li {
+     display: block;
+ }
+
+.footer-logo {
+    text-align: center;
+    line-height: 40px;
+    padding: 10px;
+   
+   
+    
+}
+
+.contact img {
+    width: 40px;
+   
+}
+
+.contact a {
+    text-decoration: none;
+    color: purple;
+}
+
+.footer-contact img {
+    width: 40px;
+    height: auto;
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid #FFEC51;
+}
+
+
+footer img {
+    width: 90px;
+}
+
+footer {
+    background-color: #3777ff;
+    margin-top: 10px;
+    max-width: 760px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: purple;
+
+}
+ .content section{
+    margin-top: 30px;
+    text-align: center;
+    background-color: var(--clr-one);
+    padding: 2rem;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)) ;
+    gap: 10px;
+}
+
+.content section p {
+    color: var(--clr-four);
+}
+
+.button img {
+     width: 30px;
+     height: auto;
+}
+
+.button button {
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #E2C2FF;
+    border: 1px solid white;
+
+}
+
+.button{
+    text-align: center;
+}
+
+button:hover{
+    background-color: #a6edff;
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 760px) {
+    .responsive li {
+        display: block;
+    }
+    
+     
+    .date {
+        max-width: 992px;
+    }
+    main {
+        max-width: 992px;
+    }
+
+    .social {
+        margin-left: 100px;
+    }
+
+    footer {
+        max-width: 992px;
+    }
+    }
+
+@media only screen and (min-width:992px) {
+   
+    main {
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+
+
+    .logo {
+        margin-right: 30px;
+    }
+ 
+
+    .navbar-links li:first-child {
+        display: none;
+    }
+
+    .navbar-links li {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .social {
+        margin-left: 70px ;
+    }
+
+    .footer-logo {
+        display: flex;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        line-height: normal;
+        text-align: left;
+     }
+
+     .date {
+         max-width: 1962px;
+         
+     }
+
+     footer {
+         max-width: 1962px;
+ 
+     }
+    }

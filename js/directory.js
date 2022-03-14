@@ -20,8 +20,14 @@ function displayDirectory(mydata){
     let p2 = document.createElement('p');
     let a = document.createElement('a');
 
+    
+    p.textContent = `${mydata.address}`;
+    p2.textContent = `${mydata.phonenumber}`;
+    a.textContent = `${mydata.link}`
+    a.href = `${mydata.link}`;
     potrait.setAttribute('src', mydata.imageurl);
     potrait.setAttribute('alt', `campony's information`);
+
 
     card.appendChild(potrait);
     card.appendChild(p);
@@ -29,7 +35,12 @@ function displayDirectory(mydata){
     card.appendChild(a);
     content.appendChild(card)
 
-    
+}
+
+function myfuction1(){
+    const content = document.querySelector('.content');
+    content.innerHTML = `${content}`
+
 
 
 }

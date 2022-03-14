@@ -1,0 +1,89 @@
+{
+    "directory2":[
+        {
+            "companyname": "LIAHONNA INC",
+            "address": "111 S 5 W Orem UT 53711",
+            "phonenumber": "(658) 453 0002",
+            "link": "https://ochen1997.github.io/chamber/"
+            
+        },
+
+        {
+            "companyname": "SILVER LINING LIMITED",
+            "address": "123 E 6 S Orem UT 37489",
+            "phonenumber": "(356) 657 0003",
+            "link": "https://ochen1997.github.io/chamber/"
+        },
+
+        {
+            "companyname": "STELLVR IDUSTRIES",
+            "address": "124 N 7 W Orem UT 36574",
+            "phonenumber": "(485) 856 0004",
+            "link": "https://ochen1997.github.io/chamber/"
+        },
+
+        {
+            "companyname": "TRAVEL PROS INTERNATIONAL",
+            "address": "125 S 8 W Draper UT 67470",
+            "phonenumber": "(867) 685 0005",
+            "link": "https://ochen1997.github.io/chamber/"
+        },
+
+        {
+            "companyname": "YOUR TRAVELS YOUR CAPTION",
+            "address": "126 N 9 S Draper UT 46570",
+            "phonenumber": "(037) 657 6957",
+            "link": "https://ochen1997.github.io/chamber/"
+        },
+
+        {
+            "companyname": "CALM INDUSTRIES",
+            "address": "127 E 10 W Draper UT 74630",
+            "phonenumber": "(654) 657 6588",
+            "link": "https://ochen1997.github.io/chamber/"
+        },
+
+        {
+            "companyname": "ROYAL AMERICA",
+            "address": "128 N 11 S Draper UT 65846",
+            "phonenumber": "(748) 657 6584",
+            "link": "https://ochen1997.github.io/chamber/"
+        },
+        
+        {
+            "companyname": "PINE GROUP OF COMPANIES",
+            "address": "129 E 12 W Vernal UT 67845",
+            "phonenumber": "(576) 757 76857",
+            "link": "https://ochen1997.github.io/chamber/"
+        },
+
+        {
+            "companyname": "PLANT SERVICE INC",
+            "address": "130 S 13 N Vernal UT 75746",
+            "phonenumber": "(758) 657 7585",
+            "link": "https://ochen1997.github.io/chamber/"
+        }, 
+
+        {
+            "companyname": "SQUARE PACK INDUSTRIES",
+            "address": "131 S 14 W Vernal UT 65679",
+            "phonenumber": "(546) 657 5485",
+            "link": "https://ochen1997.github.io/chamber/"
+        },
+
+        {
+            "companyname": "BELT GROUP OF COMPANIES",
+            "address": "132 E 15 W Vernal UT 76857",
+            "phonenumber": "(768) 768 8796",
+            "link": "https://ochen1997.github.io/chamber/"
+        },
+
+        {
+            "companyname": "NILE DISTRIBUTION",
+            "address": "133 E 16 S Vernal UT 57577",
+            "phonenumber": "(657) 647 2937",
+            "link": "https://ochen1997.github.io/chamber/"
+        }
+
+    ]
+}
