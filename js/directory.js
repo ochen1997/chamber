@@ -34,13 +34,15 @@ function displayDirectory(mydata){
     card.appendChild(p2);
     card.appendChild(a);
     content.appendChild(card)
-
 }
 
-function myfuction1(){
-    const content = document.querySelector('.content');
-    content.innerHTML = `${content}`
 
 
 
-}
+
+
+
+
+
+
+

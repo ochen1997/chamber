@@ -195,6 +195,10 @@ footer {
     padding: 2rem;
 }
 
+
+
+
+
 img {
     width: 80px;
     height: auto;
@@ -211,8 +215,9 @@ section {
     gap: 10px;
 }
 
+
 .content section p {
-    color: var(--clr-four);
+    color: white;
 }
 
 .button img {
