@@ -13,6 +13,7 @@ fetch(requestURL)
 })
 
 
+
 function displayDirectory(mydata){
     let card = document.createElement('section');
     let potrait = document.createElement('img');
@@ -20,7 +21,6 @@ function displayDirectory(mydata){
     let p2 = document.createElement('p');
     let a = document.createElement('a');
 
-    
     p.textContent = `${mydata.address}`;
     p2.textContent = `${mydata.phonenumber}`;
     a.textContent = `${mydata.link}`
@@ -34,10 +34,9 @@ function displayDirectory(mydata){
     card.appendChild(p2);
     card.appendChild(a);
     content.appendChild(card)
+   
+
 }
-
-
-
 
 
 

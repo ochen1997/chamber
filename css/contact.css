@@ -5,17 +5,6 @@ body {
     font-size: 13px;
   
 }
-
-:root {
-
-    --clr-one: #549F93;
-    --clr-two: #592ab8;
-    --clr-three: #0D160B;
-    --clr-four: #f0f050;
-    --clr-five: #EC5766;
-
-}
-
 header {
     display: flex;
     justify-content: center;
@@ -38,7 +27,7 @@ header {
 }
 
 .navbar img {
-    width: 80px;
+    width: 120px;
     height: auto;
 }
 
@@ -90,14 +79,18 @@ header {
  }
 
 
- .logo {
+ .logo, .logoh1p {
      display: flex;
      justify-content: center ;
      align-items: center;
-     flex-direction: column;
      margin-top: 20px;
      margin-right: -10px;
+     
  }
+ .logoh1p {
+     flex-direction: column;
+ }
+ 
 
 
  .social picture {
@@ -139,14 +132,7 @@ header {
      display: block;
  }
 
-.footer-logo {
-    text-align: center;
-    line-height: 40px;
-    padding: 10px;
-   
-   
-    
-}
+
 
 .contact img {
     width: 40px;
@@ -188,69 +174,78 @@ footer {
     color: purple;
 
 }
- .content section{
-    margin-top: 30px;
-    text-align: center;
-    background-color: var(--clr-one);
-    padding: 2rem;
-}
 
-
-
-
-
-img {
-    width: 80px;
-    height: auto;
-}
-
-section {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)) ;
-    gap: 10px;
-}
-
-
-.content section p {
-    color: white;
-}
-
-.button img {
-     width: 30px;
-     height: auto;
-}
-
-.button button {
-    padding: 10px;
-    cursor: pointer;
+form {
     margin-top: 20px;
-    background-color: #E2C2FF;
-    border: 1px solid white;
-
+   
 }
 
-.button{
-    text-align: center;
+form fieldset {
+    margin: 2rem;
+    border: 1px solid #91a8d8;
+    border-radius: 10px;
+    padding: 2rem ;
 }
 
-button:hover{
-    background-color: #a6edff;
+form legend {
+    color:#6a91e6;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid rgb(149, 148, 148);
+    padding: .3rem;
+    border-radius: 4px;
+    color: rgb(44, 42, 42);
+    width: 100%;
+    background-color: rgb(241, 238, 238);
+}
+
+form label.middle {
+    display: block;
+    padding: .75rem;
     
 }
 
-h1 {
-    text-align: center;
+form input.submitBtn {
+    border: none;
+    background-color: #6a91e6;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    cursor: pointer;
+   
 }
 
+form label.bottom{
+    display: block;
+    margin: 2rem;
+}
 
+form input.currentdatetime {
+    border-radius: 4px;
+    border: 1px solid rgb(149, 148, 148) ;
+    padding: .3rem;
+    color: rgb(44, 42, 42);
+    background-color: rgb(241, 238, 238);
+    width: 100%;
 
+}
 
-
+form fieldset legend {
+    text-align: center;
+}
+form .benefits p {
+   font-size: .8rem;
+   line-height: 2rem;
+}
 
 
 
@@ -258,23 +253,35 @@ h1 {
     .responsive li {
         display: block;
     }
+
+
+.date {
+    max-width: 992px;
+}
+main {
+    max-width: 992px;
+}
+
+.social {
+    margin-left: 100px;
+}
+
+footer {
+    max-width: 992px;
+}
+
+form .top input {
+    max-width: 20rem;
+}
+form fieldset legend {
+    max-width:100%;
+}
+form input.currentdatetime {
+    max-width: 20rem;
+}
+
     
-     
-    .date {
-        max-width: 992px;
-    }
-    main {
-        max-width: 992px;
-    }
-
-    .social {
-        margin-left: 100px;
-    }
-
-    footer {
-        max-width: 992px;
-    }
-    }
+}
 
 @media only screen and (min-width:992px) {
    
@@ -305,18 +312,12 @@ h1 {
         margin-left: 70px ;
     }
 
-    .footer-logo {
-        display: flex;
-    }
 
     .footer-logo {
         display: flex;
         justify-content: center;
         align-items: center;
-        justify-content: space-between;
         padding: 20px;
-        line-height: normal;
-        text-align: left;
      }
 
      .date {
@@ -328,4 +329,36 @@ h1 {
          max-width: 1962px;
  
      }
+
+    
+
+     form {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: repeat(1, 1fr);
+         gap: 10px;
+     }
+
+    form .fieldset-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
     }
+
+    form .fieldset-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    form .benefits {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+
+    form label.top input {
+        max-width: 40rem;
+        
+       
+    }
+
+   
+}

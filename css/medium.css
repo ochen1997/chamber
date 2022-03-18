@@ -1,4 +1,5 @@
 @media only screen and (min-width: 760px) {
+    
     .responsive li {
         display: block;
     }
@@ -14,6 +15,8 @@ main {
     grid-template-columns:repeat(3,1fr) ;
     grid-template-rows: repeat(5, 1fr);
     gap: 20px;
+    
+   
    
 }
 
@@ -21,7 +24,9 @@ main {
 .section-1 {
     grid-column: 1/4;
     grid-row: 1/2;
+    width: 100%;
     height: 400px;
+   
     
 }
 
@@ -29,11 +34,16 @@ main {
     grid-column: 1/4;
     grid-row: 2/3;
     height: 400px;
+   
+   
 }
 
 .section-3{
     grid-column: 1/3;
     grid-row: 5/6;
+    height: 400px;
+  
+    
    
 
 }
@@ -41,6 +51,8 @@ main {
 .section-4 {
     grid-column: 3/4;
     grid-row: 5/6;
+    height: 400px;
+   
    
 }
    
@@ -51,6 +63,8 @@ main {
     grid-column: 1/4;
     grid-row: 4/5;
     height: 400px;
+    
+
    
 }
 
@@ -58,12 +72,14 @@ main {
     grid-column: 1/4;
     grid-row: 3/4;
     
+    
 }
 
 .section-6 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
+   
 }
 
 
@@ -76,14 +92,11 @@ main {
  }
  
  .sportlight-2nd {
-     display: flex;
-     background-color: var(--clr-six);
-     border: 1px solid black;
-     
+    display: flex;
+    background-color: var(--clr-six);
+    border: 1px solid black;
     
-   
-   
- }
+}
  
  .sportlight-3 {
      display: none;
@@ -98,5 +111,21 @@ main {
 footer {
     max-width: 992px;
 }
-    
+
+.section-2 p{
+    line-height: 2rem;
 }
+.sportlight-1 
+ img {
+      margin-top: 0px;
+}
+
+.sportlight-2
+ img {
+    margin-top: 0px;
+}
+.sportlight-3
+ img {
+    margin-top: 0px;
+}
+}  
