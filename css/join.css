@@ -1,8 +1,9 @@
-body { 
+body{ 
     margin: 0;
     border: 0;
     font-family: 'Merriweather', 'serif';
     font-size: 13px;
+    
   
 }
 header {
@@ -130,11 +131,6 @@ header {
 
 .footer-logo {
     text-align: center;
-    line-height: 40px;
-    padding: 10px;
-   
-   
-    
 }
 
 .contact img {
@@ -176,6 +172,10 @@ footer {
     text-decoration: none;
     color: purple;
 
+}
+
+.footer-logo {
+    padding: 20px;
 }
 
 form {
@@ -324,9 +324,8 @@ form input.currentdatetime {
         justify-content: center;
         align-items: center;
         justify-content: space-between;
-        padding: 20px;
         line-height: normal;
-        text-align: left;
+        text-align: center;
      }
 
      .date {

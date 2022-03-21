@@ -143,8 +143,8 @@ header {
 .copyright {
     text-align: center;
     border-top: 1px solid #FFEC51;
+    line-height: 2rem;
 }
-
 
 footer img {
     width: 90px;
@@ -154,6 +154,10 @@ footer {
     background-color: #3777ff;
     margin-top: 10px;
     max-width: 760px;
+}
+
+.contact,.logo {
+    line-height: 2rem;
 }
 
 main {
@@ -168,7 +172,7 @@ main {
 
 main {
     margin-top: 30px;
-    max-width: 380px;
+    max-width: 300px;
 
 }
 
@@ -347,7 +351,7 @@ figcaption {
 }
 
 .section-2 {
-    line-height: 1.5rem;
+   
     color: white;
     text-align: left;
 
@@ -386,4 +390,4 @@ figcaption {
 .sportlight-2
  img {
     margin-top: 0px;
-}
+ }
