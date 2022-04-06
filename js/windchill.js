@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
 
 
 
-            const api = `https://api.weatherbit.io/v2.0/forecast/hourly?lat= ${lat}&lon= ${long}&key=62fc843a3c504cd99a4d81272788cb02`;
+            const api = `https://api.weatherbit.io/v2.0/forecast/hourly?lat=${lat}&lon=${long}&key=62fc843a3c504cd99a4d81272788cb02`;
            
             fetch(api)
             .then(response => {
