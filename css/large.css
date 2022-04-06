@@ -1,8 +1,10 @@
 @media only screen and (min-width:992px) {
    
     main {
-        max-width: 1800px;
-        margin: 0 auto;
+       max-width: 1800px;
+       margin-left: 25px;
+       margin-right: 25px;
+       
 
     }
 
@@ -156,6 +158,14 @@
         line-height: 2rem;
      }
     
+     .section-5 .btn {
+        margin-top: .9rem ;
+        width: 70px;
+        padding: .9rem;
+        border-radius: 50 50;
+        text-align: center;
+        background-color: rgb(204, 194, 181);
+    }
     
  
 }

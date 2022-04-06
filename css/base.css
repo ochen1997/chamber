@@ -165,14 +165,14 @@ main {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(7, 1fr);
     gap: 10px;
-    max-width: 500px;
+
 
 
 }
 
 main {
     margin-top: 30px;
-    max-width: 300px;
+    margin-right: 20px;
 
 }
 
@@ -180,7 +180,7 @@ main {
     grid-column: 1/2;
     grid-row: 1/2;
     background-color: #549F93;
-    height: 300px;
+    height: auto;
 }
 
 .section-2 {
@@ -322,10 +322,10 @@ img {
 }
 
 .section-5 .btn {
-    margin-top: 3rem;
-    padding: 1rem;
+    margin-top: 2rem;
     width: 30%;
-    border-radius: 50px 50px 50px;
+    padding: .9rem;
+    border-radius: 50px  50px;
     text-align: center;
     background-color: rgb(204, 194, 181);
 }
@@ -340,11 +340,12 @@ img {
     color: white;
     text-align: left;
     padding: .4rem;
+    
 }
 
 figcaption {
     color: white;
-    line-height: 1.5rem;
+    line-height: 2rem;
     text-align: left;
     padding: .4rem;
 
@@ -359,6 +360,7 @@ figcaption {
 
 .section-2 p {
     padding: .4rem;
+    line-height: 2rem;
 }
 
 .section-6 {

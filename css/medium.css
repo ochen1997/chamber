@@ -9,6 +9,7 @@
 }
 main {
     max-width: 992px;
+    margin-right: 0;
 }
 main {
     display: grid;
