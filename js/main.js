@@ -1,10 +1,4 @@
-const Img = document.querySelector('img');
-const para1 = document.querySelector('.para-1');
-const para2 = document.querySelector('.para-2');
-const a = document.querySelector('a')
 const requestURL = 'https://ochen1997.github.io/chamber/data/data.json';
-
-
 fetch(requestURL)
 .then(function(response){
     return response.json()

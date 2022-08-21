@@ -7,10 +7,9 @@
 .date {
     max-width: 992px;
 }
-main {
-    max-width: 992px;
-    margin-right: 0;
-}
+
+   
+
 main {
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
@@ -105,13 +104,6 @@ main {
      margin-bottom: 20px;
  }
 
-.social {
-    margin-left: 100px;
-}
-
-footer {
-    max-width: 992px;
-}
 
 .section-2 p{
     line-height: 2rem;

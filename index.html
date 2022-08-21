@@ -17,43 +17,29 @@
     <script defer src="js/date.js"></script>
     <script defer src="js/windchill.js"></script>
     <script defer src="js/main.js"></script>
-    <title>Chamber of Commerce</title>
+    <title>Micropatech</title>
   </head>
-  <p class="message"></p>
+
   <body>
     <header>
-      <section class="navbar">
-        <nav>
-          <div class="logo">
-            <img src="images/logo.webp" alt="logo" class="logo" />
-            <h1>Micropatech</h1>
-            <p>chamber of Commerce</p>
-          </div>
-          <div class="social">
-            <picture>
-              <a href="https://www.facebook.com/"
-                ><img src="images/social.png" alt="social" target="blank"
-              /></a>
-              <a href="https://www.instagram.com/"
-                ><img src="images/socialmedia.png" alt="social" target="blank"
-              /></a>
-            </picture>
-          </div>
-
-          <div>
-            <ul class="navbar-links">
-              <li class="toggle">
-                <a href="#" onclick="toggleMenu()"> &#9776; </a>
-              </li>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="discover.html">Discover</a></li>
-              <li><a href="directory.html">Directory</a></li>
-              <li><a href="join.html">Join</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </section>
+    <nav>
+      <div class="logo">
+        <h1>Micropatech</h1>
+      </div>
+      <div class="ham-menu" onclick="showHamMenu()">
+        <h1>&#9776;</h1>
+      </div>
+     
+      <ul class="main-menu">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="discover.html">Discover</a></li>
+       <li><a href="directory.html">Directory</a></li>
+       <li><a href="join.html">Join</a></li>
+       <li><a href="contact.html">Contact</a></li>
+      </ul>
+    
+   
+    </nav>
     </header>
 
     <date class="date"></date>
@@ -86,7 +72,7 @@
           to our customers all our membership holders will be given a free
           vacation! This will be a great time to interact with our borad of
           governors and more importantly have fun. Thank you a gain and we look
-          forward for more years like this. 
+          forward for more years like this.
         </p>
       </section>
 
@@ -116,16 +102,7 @@
       </section>
 
       <section class="section-4">
-        <h2>Weather</h2>
-        <div class="weatherinfo">
-          <span class="icon"> <img src="images/cloudy.png" /></span>
-          <span class="temperature"></span>
-        </div>
-        <span class="description"></span>
-        <div class="windvalues">
-          <p class="windspeed"></p>
-          <p class="windchill"></p>
-        </div>
+       
       </section>
 
       <section class="section-5">
@@ -140,8 +117,7 @@
 
       <section class="section-6">
         <div class="sportlight-1">
-          <h2>Powerful Trade
-          </h2>
+          <h2>Powerful Trade</h2>
           <p class="para-1"></p>
           <p class="para-2"></p>
         </div>
@@ -163,17 +139,25 @@
     <footer>
       <section class="footer-logo">
         <div class="logo">
-          <img src="images/logo.webp" alt="logo" />
-          <h2>Micropatech Chamber of Commerce.</h2>
+          <h2>Micropatech</h2>
           <p>1877 South 1030 West</p>
           <p>Orem,Utah</p>
         </div>
-
+        
+        <div class="social-one">
+          <a href="https://www.facebook.com/"
+          ><img src="images/social.png" alt="social" target="blank"
+        /></a>
+        <a href="https://www.facebook.com/"
+        ><img src="images/social.png" alt="social" target="blank"
+      /></a>
+      </div>
+      
         <div class="contact">
           <p>patrickochen97@gmail.com</p>
           <p>+(720) 4838-919</p>
           <a href="https://goo.gl/maps/K7UQdyELABsJQr3x5">
-            <img src="images/pin.png" alt="pin" target="blank" />Location
+            Location
           </a>
         </div>
       </section>
