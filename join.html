@@ -19,38 +19,26 @@
 
   <body>
     <header>
-      <section class="navbar">
-        <nav>
-          <div class="container-logo-social">
-            <div class="logo">
-              <a href="index.html"><img src="images/logo.webp" alt="logo" /></a>
-            </div>
-            <div class="">
-             <h1>Micropatech</h1>
-            </div>
-          </div>
-
-          <div>
-            <ul class="navbar-links">
-              <li class="toggle">
-                <a href="#" onclick="toggleMenu()"> &#9776; </a>
-              </li>
-              <li><a href="discover.html">Discover</a></li>
-              <li><a href="directory.html">Directory</a></li>
-              <li><a href="join.html">Join</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-           </div>
-           
-          <div class="cart">
-            <img src="images/cart.png"/>
-          </div>
-        </nav>
-      </section>
-    </header>
-
-    <date class="date"></date>
-
+      <nav>
+      
+        <div class="logo">
+          <img src="images/logo.jpg" alt="">
+          <a href="index.html"><h1>Micropatech</h1></a>
+        </div>
+        <div class="ham-menu" onclick="showHamMenu()">
+          <h1>&#9776;</h1>
+        </div>
+        <div>
+        <ul class="main-menu">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="discover.html">Discover</a></li>
+         <li><a href="directory.html">Directory</a></li>
+         <li><a href="join.html">Membership</a></li>
+         <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      </nav>
+      </header>
     <main>
       <form action="thankyou.html" method="get">
         <fieldset class="fieldset-1">
@@ -182,7 +170,7 @@ Briefly describe your business....</textarea
               type="submit"
               class="submitBtn"
               name="submitBtn"
-              value="Join Chamber"
+              value="Subscribe"
           /></label>
         </fieldset>
       </form>

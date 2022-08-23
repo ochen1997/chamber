@@ -1,21 +1,51 @@
 @media only screen and (min-width: 992px) {
-
  
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-image: url(../images/patech.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 50px 50px;
+}
+ .ham-menu {
+  display: none;
+ }
+ .logo h1{
+  left: 0;
+  top: 0;
+  position: relative;
+  color: white;
+}
+ .logo img {
+  width: 60px;
+  display: block;
+  border: 1px solid red;
+ }
+ .main-menu li {
+  display: inline-flex;
+ }
+ .main-menu li a {
+  color: rgb(232, 232, 154); 
+ }
+ .main-menu li a:hover {
+  color: white;
+  background-color: #549f93;
+  
+ }
+ .main-menu.show li {
+  display: none;
+ }
  .main-menu a{
-   padding: 50px;
+   padding: 30px;
  }
 
   p img {
     width: 50px;
-  }
- 
-  .cart {
-    margin-left:150px ;
-   
-  }
-  .cart img {
-    width: 50px;
-    cursor: pointer;
   }
 
   .logo {
@@ -23,26 +53,6 @@
   }
   .logo,h1 {
     color: white;
-  }
-
-  .navbar-links li:first-child {
-    display: none;
-  }
-
-  .navbar-links li {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding: 10px;
-  }
-
-  .navbar-links a:hover {
-    color: white;
-    background-color: black;
-    cursor: pointer;
-    transition: 2s;
-    border-radius: 20px 20px;
   }
 
   .container-logo-social {
