@@ -19,6 +19,10 @@
   position: absolute;
 }
 
+title{
+  text-transform: uppercase;
+}
+
 .ham-menu h1{
   color: white;
 }
