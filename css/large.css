@@ -26,6 +26,11 @@ nav {
   display: block;
   border: 1px solid red;
  }
+ title{
+  text-transform: uppercase;
+  text-decoration: solid;
+}
+
  .main-menu li {
   display: inline-flex;
  }
